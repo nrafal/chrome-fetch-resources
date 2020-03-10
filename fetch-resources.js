@@ -1,7 +1,7 @@
 'use strict';
 
 const puppeteer = require('puppeteer');
-var argv = require('minimist')(process.argv.slice(2));
+var argv = require('minimist')(process.argv.slice(2), {default: {url:'http://google.com/'}});
 
 (async() => {
   const browser = await puppeteer.launch();
