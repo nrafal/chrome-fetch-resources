@@ -1,0 +1,15 @@
+{
+  "name": "chrome",
+  "version": "1.0.0",
+  "description": "Test chrome",
+  "main": "fetch-resources.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "puppeteer": "^2.1.1"
+  }
+}
